@@ -1,6 +1,6 @@
 #include <fstream>
 #define VMAX 121
-#define DimMaxStiva 90000
+#define DimMaxStiva 100000
 using namespace std;
 ifstream fin("liste.in");
 ofstream fout("liste.out");
