@@ -1,7 +1,6 @@
 #include <fstream>
 #define VMAX 121
-#define MaxBytes 1000000
-#define DimMaxStiva MaxBytes/VMAX
+#define DimMaxStiva 50000
 using namespace std;
 ifstream fin("liste.in");
 ofstream fout("liste.out");
@@ -57,4 +56,4 @@ int main()
 	fout.close();
 	return 0;
 }
-// scor 40
+// scor 80
